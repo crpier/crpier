@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <title>Portfolio</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=5.0, minimum-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+    <link rel="stylesheet" href="dist/css/style.css">
+    <script defer src="dist/js/bundle.min.js"></script>
+</head>
+<body>
+
+<div class="navbar-spacer">
+    <nav id="navigation-bar">
+        <ul>
+            <li><button target="section-3">Projects</button></li>
+            <li><button target="section-2">About</button></li>
+            <li><button target="section-4">Contact</button></li>
+        </ul>
+
+    </nav>
+</div>
+
+<main>
+
+<!--    <div id="debug">debug</div>-->
+    <section id="section-1" class="home">
+        <div class="section-wrapper">
+            <div class="presentation">
+                <h1>Hello, my name is </h1>
+                <div class="highlight">Cristian Pierșinaru</div>
+            </div>
+            <div class="presentation">
+                <h2>I <strong>build</strong> websites and user interfaces</h2>
+                <h2>I love dark themes, Linux, and my favourite quote is</h2>
+                <div class="quote">
+                    <blockquote><h2>Words are never 'only words'; they matter because they define the contours of what we can do.</h2></blockquote>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="section-3">
+        <h1 class="section-header">Projects</h1>
+        <div class="projects-container">
+            <div class="card">
+                <div class="card-title"><h3>Food Tracker</h3></div>
+                <div class="card-content">
+                    <a class="card-image-link" href="javascript: void(0)">
+                        <img src="assets/food_tracker.jpeg" alt="A screenshot of a menu in the Food Tracker application">
+                        <div class="card-content-indicator">
+                            Go to demo
+                        </div>
+                    </a>
+                </div>
+                <div class="card-action-visit">
+                    <a href="https://github.com/ChrisTheWhiz/oss-food-tracker" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+                        Github
+                    </a>
+                </div>
+                <div class="card-details">
+                    <span>Technologies and libraries:</span>
+                    <ul>
+                        <li>Angular 8</li>
+                        <li>angular-material</li>
+                        <li>rxjs</li>
+                        <li>SASS</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-title"><h3>Dev Portfolio</h3></div>
+                <div class="card-content">
+                    <a class="card-image-link" href="javascript: void(0)">
+                        <img alt="A screenshot of the Dev Portfolio landing page" src="assets/dev_portfolio.jpeg">
+                        <div class="card-content-indicator">
+                            Go to demo
+                        </div>
+                    </a>
+                </div>
+                <div class="card-action-visit">
+                    <a href="https://bitbucket.org/ChrisTheWiz/starter_portfolio/src/master/" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M22.2 32A16 16 0 0 0 6 47.8a26.35 26.35 0 0 0 .2 2.8l67.9 412.1a21.77 21.77 0 0 0 21.3 18.2h325.7a16 16 0 0 0 16-13.4L505 50.7a16 16 0 0 0-13.2-18.3 24.58 24.58 0 0 0-2.8-.2L22.2 32zm285.9 297.8h-104l-28.1-147h157.3l-25.2 147z"/></svg>
+                        Bitbucket
+                    </a>
+                </div>
+                <div class="card-details">
+                    <span>Technologies and libraries:</span>
+                    <ul>
+                        <li>Gulp</li>
+                        <li>SASS</li>
+                        <li>Bootstrap Reboot</li>
+                        <li>Lodash</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section id="section-2">
+        <h1 class="section-header">About me</h1>
+        <div class="timeline-container">
+            <div class="timeline-item">
+                <span class="timeline-item-date">May 2018</span>
+                <span class="timeline-item-marker"></span>
+                <h1>Working as QA Executive at <a href="https://www.linkedin.com/company/ipsos-interactive-services/?originalSubdomain=ro" target="_blank">Ipsos Interactive Services</a></h1>
+                <p>
+                    Eager to test the waters of the job market and see how far my
+                    programming skills can take me, I decided to work as a Quality Assurance Executive
+                    before going to university.
+                </p>
+                <p>
+                    Here I learned the hard lessons about deadlines, managing workloads
+                    giving estimates and, above all, <i>teamwork</i>
+                </p>
+                <p>
+                    In the meantime, I became more and more engrossed in <i>JavaScript</i>,
+                    and decided that <strong>Web Development</strong> is my field of choice.
+                </p>
+                <p>Thus, I began to study the server side of it, with Node.js, Express
+                    and Typescript as foundation.</p>
+            </div>
+
+            <div class="timeline-item">
+                <span class="timeline-item-date">October 2019</span>
+                <span class="timeline-item-marker"></span>
+                <h1>Studying at <a href="http://www.utm.ro/en/" target="_blank">"Titu Maiorescu" University</a></h1>
+                <p>
+                    It soon became evident that much more good can be accomplished by working
+                    on the client side as well. Moreover, after the first tutorial, things
+                    just <strong>clicked</strong>.
+                </p>
+                <p>
+                    I've left my position at Ipsos Interactive Services to focus on studying
+                    Web Development more diligently, but to also prepare for the University Degree
+                    I have chosen: Computer Science, obviously.
+                </p>
+            </div>
+
+            <div class="timeline-item">
+                <span class="timeline-item-date">For now</span>
+                <span class="timeline-item-marker"></span>
+                <h1>The future is promising</h1>
+                <p>
+                    Nowadays, I spend my time <i>studying arduously</i>, both for the school curriculum and my
+                    development skills, always on the lookout for a new challenge!
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+    <section id="section-4">
+        <h1 class="section-header">Contact</h1>
+        <div class="contact-box">
+            <a href="javascript: void(0)"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path d="M369.9 97.9L286 14C277 5 264.8-.1 252.1-.1H48C21.5 0 0 21.5 0 48v416c0 26.5 21.5 48 48 48h288c26.5 0 48-21.5 48-48V131.9c0-12.7-5.1-25-14.1-34zM332.1 128H256V51.9l76.1 76.1zM48 464V48h160v104c0 13.3 10.7 24 24 24h104v288H48z"/></svg>Download a CV</a>
+        </div>
+
+        <h2>You can reach me at</h2>
+        <span class="contact-box long-text">
+            <a href="mailto:piersinaru.cristian@gmail.com"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M464 64H48C21.49 64 0 85.49 0 112v288c0 26.51 21.49 48 48 48h416c26.51 0 48-21.49 48-48V112c0-26.51-21.49-48-48-48zm0 48v40.805c-22.422 18.259-58.168 46.651-134.587 106.49-16.841 13.247-50.201 45.072-73.413 44.701-23.208.375-56.579-31.459-73.413-44.701C106.18 199.465 70.425 171.067 48 152.805V112h416zM48 400V214.398c22.914 18.251 55.409 43.862 104.938 82.646 21.857 17.205 60.134 55.186 103.062 54.955 42.717.231 80.509-37.199 103.053-54.947 49.528-38.783 82.032-64.401 104.947-82.653V400H48z"/></svg>piersinaru.cristian@gmail.com</a>
+        </span>
+
+        <h2>Or find me on</h2>
+        <span class="contact-box">
+            <a href="https://www.linkedin.com/in/cristian-piersinaru-64776b132/" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg>Linkedin</a>
+        </span>
+        <span class="contact-box">
+            <a href="https://github.com/ChrisTheWhiz" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>Github</a>
+        </span>
+    </section>
+
+    <div class="back-to-top-container">
+        <a href="#" class="back-to-top">
+            Back to top
+        </a>
+    </div>
+
+    <footer>
+        <small>&copy 2019, Cristian Pierșinaru</small>
+    </footer>
+</main>
+
+</body>
+</html>
