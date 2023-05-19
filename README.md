@@ -1,2 +1,3 @@
-# tiannaru
-My own developer Portfolio!
+# crpier
+
+I like to build...things, I think.
