@@ -1,120 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/c0bdd525d1.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="/style.css" />
+    <title>crpier</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <script <script src="https://kit.fontawesome.com/c0bdd525d1.js" crossorigin="anonymous"></script>
-  ></script>
-  <link rel="stylesheet" href="/style.css" />
-  <title>crpier</title>
-</head>
-
-<body class="text-white text-base font-mono bg-fixed backdrop-brightness-[0.4]" style="
+  <body
+    class="text-white text-base font-mono bg-fixed backdrop-brightness-[0.4]"
+    style="
       background-image: url(https://live.staticflickr.com/281/19481370523_204cc938d5_b.jpg);
-    ">
-  <section class="flex flex-col pt-8">
-    <span class="text-7xl text-center m-auto text-yellow-500">crpier</span>
-    <span class="m-auto mt-4 text-xl">I keep some stuff I build here</span>
-  </section>
+    "
+  >
+    <section class="flex flex-col pt-8">
+      <span class="text-7xl text-center m-auto text-yellow-500">crpier</span>
+      <span class="m-auto mt-4 text-xl">I keep some stuff I build here</span>
+    </section>
 
-  <section class="flex flex-col items-center mt-36">
-    <span class="text-2xl text-yellow-500">Projects</span>
-    <div
-      class="border rounded-lg p-4 mt-16 mx-8 flex flex-col items-center lg:flex-row lg:items-start lg:max-w-screen-lg bg-black">
-      <div class="lg:w-6/12 px-4">
-        <span class="text-xl text-yellow-400 m-auto">Memecry</span>
-        <p class="my-4">
-          Meme app, an experiment into sending HTML over the wire with FastAPI
-          but without <code>Jinja</code>. <br />Toeing the line between
-          sharing app and library manager.
-        </p>
+    <section class="flex flex-col items-center mt-36">
+      <span class="text-2xl text-yellow-500">Projects</span>
+      <div
+        class="border rounded-lg p-4 mt-16 mx-8 flex flex-col items-center lg:flex-row lg:items-start lg:max-w-screen-lg bg-black"
+      >
+        <div class="lg:w-6/12 px-4">
+          <span class="text-xl text-yellow-400 m-auto">Memecry</span>
+          <p class="my-4">
+            Meme app, an experiment into sending HTML over the wire with FastAPI
+            but without <code>Jinja</code>. <br />Toeing the line between
+            sharing app and library manager.
+          </p>
 
-        <img class="mx-auto" src="/memecry_screenshot.png" /><img />
-      </div>
+          <img class="mx-auto" src="/memecry_screenshot.png" /><img />
+        </div>
 
-      <div class="lg:w-6/12 px-4">
-        <p class="text-lg text-yellow-200 mt-4">Features</p>
-        <ul class="flex flex-col items-start w-full">
-          <li class="mb-2 before:content-['-']">
-            What you would expect from a meme website: uploading
-            images/videos, commenting on posts, liking/disliking posts and
-            comments
-          </li>
-          <li class="mb-2 before:content-['-']">
-            Search posts by title, or, for images, by the text content within
-            then.
-          </li>
-          <li class="mb-2 before:content-['-']">
-            Users, authentication and authorization
-          </li>
-        </ul>
+        <div class="lg:w-6/12 px-4">
+          <p class="text-lg text-yellow-200 mt-4">Features</p>
+          <ul class="flex flex-col items-start w-full">
+            <li class="mb-2 before:content-['-']">
+              What you would expect from a meme website: uploading
+              images/videos, commenting on posts, liking/disliking posts and
+              comments
+            </li>
+            <li class="mb-2 before:content-['-']">
+              Search posts by title, or, for images, by the text content within
+              then.
+            </li>
+            <li class="mb-2 before:content-['-']">
+              Users, authentication and authorization
+            </li>
+          </ul>
 
-        <p class="text-lg text-yellow-200 mt-4">Tech Stack</p>
-        <ul class="flex flex-col items-start w-full">
-          <li class="mb-2 before:content-['-']">
-            Writing HTML using Python objects via the
-            <code>simple-html</code> library
-          </li>
-          <li class="mb-2 before:content-['-']">
-            <code>SQLITE</code> database
-          </li>
-          <li class="mb-2 before:content-['-']">
-            <code>Poetry</code> for package and dependency management
-          </li>
-          <li class="mb-2 before:content-['-']">
-            Deployment via <code>Dokku</code> onto a <code>VPS</code>
-          </li>
-          <li class="mb-2 before:content-['-']">
-            CI/CD with <code>GitHub Actions</code>
-          </li>
-        </ul>
-        <div class="mt-4 flex flex-row justify-evenly">
-          <a href="https://memecry.ceoofmemes.expert" target="_blank"
-            class="text-gray-900 py-2 px-4 mt-4 mr-4 bg-yellow-500 rounded-lg transition-all hover:bg-orange-500 hover:text-white text-center">
-            <i class="fas fa-arrow-alt-circle-right"></i>
-            Go to page
-          </a>
-          <a href="https://github.com/crpier/memecry-backend" target="_blank"
-            class="text-gray-900 py-2 px-4 mt-4 bg-yellow-500 rounded-lg transition-all hover:bg-orange-500 hover:text-white text-center">
-            <i class="fab fa-github"></i>
-            View on GitHub
-          </a>
+          <p class="text-lg text-yellow-200 mt-4">Tech Stack</p>
+          <ul class="flex flex-col items-start w-full">
+            <li class="mb-2 before:content-['-']">
+              Writing HTML using Python objects via the
+              <code>simple-html</code> library
+            </li>
+            <li class="mb-2 before:content-['-']">
+              <code>SQLITE</code> database
+            </li>
+            <li class="mb-2 before:content-['-']">
+              <code>Poetry</code> for package and dependency management
+            </li>
+            <li class="mb-2 before:content-['-']">
+              Deployment via <code>Dokku</code> onto a <code>VPS</code>
+            </li>
+            <li class="mb-2 before:content-['-']">
+              CI/CD with <code>GitHub Actions</code>
+            </li>
+          </ul>
+          <div class="mt-4 flex flex-row justify-evenly">
+            <a
+              href="https://memecry.ceoofmemes.expert"
+              target="_blank"
+              class="text-gray-900 py-2 px-4 mt-4 mr-4 bg-yellow-500 rounded-lg transition-all hover:bg-orange-500 hover:text-white text-center"
+            >
+              <i class="fas fa-arrow-alt-circle-right"></i>
+              Go to page
+            </a>
+            <a
+              href="https://github.com/crpier/memecry-backend"
+              target="_blank"
+              class="text-gray-900 py-2 px-4 mt-4 bg-yellow-500 rounded-lg transition-all hover:bg-orange-500 hover:text-white text-center"
+            >
+              <i class="fab fa-github"></i>
+              View on GitHub
+            </a>
+          </div>
         </div>
       </div>
-    </div>
 
-    <div class="border rounded-lg p-4 mt-16 mx-8 flex flex-col items-center lg:items-start lg:max-w-screen-lg bg-black">
-      <span class="text-xl text-yellow-400 m-auto">Blockstorm</span>
-      <p class="my-4 mx-auto">Basically, Tetris in the terminal</p>
-      <img class="w-max mx-auto" src="https://github.com/crpier/blockstorm/raw/main/static/showcase.gif" /><img />
+      <div
+        class="border rounded-lg p-4 mt-16 mx-8 flex flex-col items-center lg:items-start lg:max-w-screen-lg bg-black"
+      >
+        <span class="text-xl text-yellow-400 m-auto">Blockstorm</span>
+        <p class="my-4 mx-auto">Basically, Tetris in the terminal</p>
+        <img
+          class="w-max mx-auto"
+          src="https://github.com/crpier/blockstorm/raw/main/static/showcase.gif"
+        /><img />
 
-      <div class="px-4 m-auto">
-        <p class="text-lg text-yellow-200 mt-4"></p>
-        <ul class="flex flex-col items-start w-full">
-          <li>
-            Implemented with the 2009 Tetris guideline, with some exceptions
-          </li>
-        </ul>
+        <div class="px-4 m-auto">
+          <p class="text-lg text-yellow-200 mt-4"></p>
+          <ul class="flex flex-col items-start w-full">
+            <li>
+              Implemented with the 2009 Tetris guideline, with some exceptions
+            </li>
+          </ul>
 
-        <div class="mt-4 flex flex-row justify-evenly">
-          <!-- TODO: an easter egg here would be funny I think -->
-          <a
-            class="text-gray-900 py-2 px-4 mt-4 mr-4 bg-gray-500 rounded-lg cursor-not-allowed hover:text-gray-900 text-center">
-            <i class="fas fa-arrow-alt-circle-right"></i>
-            cargo install blockstorm
-          </a>
-          <a href="https://github.com/crpier/blockstorm" target="_blank"
-            class="text-gray-900 py-2 px-4 mt-4 bg-yellow-500 rounded-lg transition-all hover:bg-orange-500 hover:text-white text-center">
-            <i class="fab fa-github"></i>
-            View on GitHub
-          </a>
+          <div class="mt-4 flex flex-row justify-evenly">
+            <!-- TODO: an easter egg here would be funny I think -->
+            <a
+              class="text-gray-900 py-2 px-4 mt-4 mr-4 bg-gray-500 rounded-lg cursor-not-allowed hover:text-gray-900 text-center"
+            >
+              <i class="fas fa-arrow-alt-circle-right"></i>
+              cargo install blockstorm
+            </a>
+            <a
+              href="https://github.com/crpier/blockstorm"
+              target="_blank"
+              class="text-gray-900 py-2 px-4 mt-4 bg-yellow-500 rounded-lg transition-all hover:bg-orange-500 hover:text-white text-center"
+            >
+              <i class="fab fa-github"></i>
+              View on GitHub
+            </a>
+          </div>
         </div>
       </div>
-    </div>
-  </section>
-  <div class="pt-52"></div>
-</body>
-
+    </section>
+    <div class="pt-52"></div>
+  </body>
 </html>
