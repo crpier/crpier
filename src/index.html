@@ -12,20 +12,23 @@
     <title>crpier</title>
   </head>
 
-  <body class="text-white text-base bg-black font-mono">
-    <section class="flex flex-col mt-8">
+  <body
+    class="text-white text-base font-mono bg-fixed backdrop-brightness-[0.4]"
+    style="
+      background-image: url(https://live.staticflickr.com/281/19481370523_204cc938d5_b.jpg);
+    "
+  >
+    <section class="flex flex-col pt-8">
       <span class="text-7xl text-center m-auto text-yellow-500">crpier</span>
-      <span class="m-auto mt-4 text-lg"
-        >I keep some stuff I <strong>build</strong> here</span
-      >
+      <span class="m-auto mt-4 text-xl">I keep some stuff I build here</span>
     </section>
 
     <section class="flex flex-col items-center mt-36">
       <span class="text-2xl text-yellow-500">Projects</span>
       <div
-        class="border rounded-lg p-4 flex flex-row items-start mt-16 max-w-screen-lg"
+        class="border rounded-lg p-4 mt-16 mx-8 flex flex-col items-center lg:flex-row lg:items-start lg:max-w-screen-lg bg-black"
       >
-        <div class="w-6/12 px-4">
+        <div class="lg:w-6/12 px-4">
           <span class="text-xl text-yellow-400 m-auto">Memecry</span>
           <p class="my-4">
             Meme app, an experiment into sending HTML over the wire with FastAPI
@@ -33,10 +36,10 @@
             sharing app and library manager.
           </p>
 
-          <img src="/memecry_screenshot.png" /><img />
+          <img class="mx-auto" src="/memecry_screenshot.png" /><img />
         </div>
 
-        <div class="w-6/12 px-4">
+        <div class="lg:w-6/12 px-4">
           <p class="text-lg text-yellow-200 mt-4">Features</p>
           <ul class="flex flex-col items-start w-full">
             <li class="mb-2 before:content-['-']">
@@ -76,7 +79,7 @@
             <a
               href="https://memecry.ceoofmemes.expert"
               target="_blank"
-              class="text-gray-900 py-2 px-4 mt-4 bg-yellow-500 rounded-lg transition-all hover:bg-orange-500 hover:text-white"
+              class="text-gray-900 py-2 px-4 mt-4 mr-4 bg-yellow-500 rounded-lg transition-all hover:bg-orange-500 hover:text-white"
             >
               <i class="fas fa-arrow-alt-circle-right"></i>
               Go to page
@@ -94,7 +97,7 @@
       </div>
 
       <div
-        class="border rounded-lg p-4 flex flex-col items-start mt-32 max-w-screen-sm"
+        class="border rounded-lg p-4 mt-16 mx-8 flex flex-col items-center lg:items-start lg:max-w-screen-lg bg-black"
       >
         <span class="text-xl text-yellow-400 m-auto">Blockstorm</span>
         <p class="my-4 mx-auto">Basically, Tetris in the terminal</p>
@@ -114,7 +117,7 @@
           <div class="mt-4 flex flex-row justify-evenly">
             <!-- TODO: an easter egg here would be funny I think -->
             <a
-              class="text-gray-900 py-2 px-4 mt-4 bg-gray-500 rounded-lg cursor-not-allowed hover:text-gray-900"
+              class="text-gray-900 py-2 px-4 mt-4 mr-4 bg-gray-500 rounded-lg cursor-not-allowed hover:text-gray-900"
             >
               <i class="fas fa-arrow-alt-circle-right"></i>
               cargo install blockstorm
@@ -131,6 +134,6 @@
         </div>
       </div>
     </section>
-    <div class="mt-52"></div>
+    <div class="pt-52"></div>
   </body>
 </html>
